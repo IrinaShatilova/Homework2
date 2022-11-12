@@ -41,5 +41,12 @@ public class Main {
         frog = frog + 4;
         System.out.println("frog = " + frog);
 
+        var SportsmanWeight1 = 78.2;
+        var SportsmanWeight2 = 82.7;
+        var SummaWeight = SportsmanWeight1 + SportsmanWeight2;
+        System.out.println("Общий вес спортсменов " + SummaWeight + " кг");
+        var DifferenceWeight = SportsmanWeight2 - SportsmanWeight1;
+        System.out.println("Разница веса спортсменов " + DifferenceWeight + " кг");
+
     }
 }
