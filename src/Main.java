@@ -2,7 +2,7 @@ public class Main {
     public static void main(String[] args) {
         System.out.println("Homework2");
 
-        var dog = 8;
+        double dog = 8;
         System.out.println(dog);
 
         var cat = 3.6;
@@ -11,13 +11,13 @@ public class Main {
         var paper = 763789;
         System.out.println(paper);
 
-        dog = dog + 4;
+        dog = dog - 3.5;
         System.out.println(dog);
 
-        cat = cat + 4;
+        cat = cat - 1.6;
         System.out.println(cat);
 
-        paper = paper + 4;
+        paper = paper - 7639;
         System.out.println(paper);
     }
 }
