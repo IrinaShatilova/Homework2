@@ -48,5 +48,9 @@ public class Main {
         var DifferenceWeight = SportsmanWeight2 - SportsmanWeight1;
         System.out.println("Разница веса спортсменов " + DifferenceWeight + " кг");
 
+        var DifferenceWeightSubtraction = SportsmanWeight2 - SportsmanWeight1;
+        System.out.println("Разница веса спортсменов (с помощью вычитания) " + DifferenceWeightSubtraction + " кг");
+        var DifferenceWeightDivision = SportsmanWeight2 % SportsmanWeight1;
+        System.out.println("Разница веса спортсменов (с помощью остатка от деления) " + DifferenceWeightDivision + " кг");
     }
 }
