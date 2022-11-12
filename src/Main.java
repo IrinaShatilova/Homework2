@@ -52,5 +52,15 @@ public class Main {
         System.out.println("Разница веса спортсменов (с помощью вычитания) " + DifferenceWeightSubtraction + " кг");
         var DifferenceWeightDivision = SportsmanWeight2 % SportsmanWeight1;
         System.out.println("Разница веса спортсменов (с помощью остатка от деления) " + DifferenceWeightDivision + " кг");
+
+        var TotalHours = 640;
+        var HoursDay = 8;
+
+        var TotalEmployees = TotalHours / HoursDay;
+        System.out.println("Всего работников в компании – " + TotalEmployees + " человек");
+
+        var TotalEmployees1 = TotalEmployees + 94;
+        var TotalHours1 = TotalEmployees1 * HoursDay;
+        System.out.println("Если в компании работает " + TotalEmployees1 + " человека, то всего " + TotalHours1 + " часа работы может быть поделено между сотрудниками");
     }
 }
